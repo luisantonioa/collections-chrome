@@ -1,0 +1,20 @@
+{
+  "name": "Amazon Collect Item Helper",
+  "description": "Allows you to collect any amazon item link on an amazon page",
+  "version": "0.1",
+  "content_scripts": [{
+    "js": [
+      "jquery-1.9.0.min.js",
+      "bootstrap.min.js",
+      "collections-menu.js"
+    ],
+    "css": [ 
+      "bootstrap.min.css",
+      "bootstrap-responsive.min.css",
+      "collections-menu.css"
+    ],
+    "matches": [ "http://www.amazon.com/*" ],
+    "run_at": "document_end"
+  }],
+  "manifest_version": 2
+}

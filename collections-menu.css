@@ -1,0 +1,8 @@
+/* line 21, ../../../../app/assets/stylesheets/dp_collect_button.css.scss */
+.dp-add-button-light {
+  margin: 15px auto;
+  width: 137px;
+  height: 31px;
+  background: url("http://d1ev142ahhz0i0.cloudfront.net/dp_add_light.png") no-repeat;
+  cursor: pointer;
+}
